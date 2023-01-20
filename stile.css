@@ -1,0 +1,88 @@
+/* formattazione sfondo  */
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-image: url("img/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 15px;
+}
+
+/* formattazione "contenitore oscurato" */
+body > div {
+    background-color: rgba(0, 0, 0, 0.466);
+    border-radius: 15px;
+    width: 1100px;
+    margin: auto;
+}
+
+/* formattazione secondo "contenitore" */
+div > div {
+    padding-inline: 100px;
+    padding-bottom: 100px;
+}
+
+/* formattazione Header logo + titolo */
+header {
+    padding-top: 80px;
+    text-align: center;
+    color: rgb(0, 255, 55);
+    font-size: 170%;
+    font-weight: bolder;
+}
+.logo {
+    width: 200px;
+}
+
+/* formattazione stricia */
+nav > div {
+    background-color: rgb(0, 255, 55);    
+    background-size: 20px;
+    height: 35px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 3 Buttons */
+.size-button {
+    font-size: 11px;
+}
+/* inizio parte 3 monopattini */
+main {
+    color: white;
+}
+
+.nome-mpt {
+    padding-top: 18px;
+    font-size: 150%;
+    font-weight: bolder;
+}
+
+.symbol:before {
+    content: "\21A6";
+}
+/* formattazione barra carica */
+.bar.row {
+    border-radius: 5px;
+    height: 24px;    
+}
+/* colori 3 monopattini */
+.gino {
+    background-color: rgb(255, 196, 0);
+    width: 35%;
+}
+
+.mike {
+    background-color: rgb(0, 180, 39);
+    width: 55%;
+}
+
+.fede {
+    background-color: rgb(204, 48, 1);
+    width: 15%;
+}
+
+
+    
